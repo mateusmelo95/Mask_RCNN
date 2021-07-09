@@ -1,0 +1,22 @@
+MTCNN Tutorial - Windows - Anaconda
+
+https://www.immersivelimit.com/tutorials/mask-rcnn-for-windows-10-tensorflow-2-cuda-101
+https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/
+#pesos coco pré
+https://github.com/matterport/Mask_RCNN/releases/download/v2.0/mask_rcnn_coco.h5
+https://machinelearningmastery.com/wp-content/uploads/2019/03/elephant.jpg
+
+1-
+conda create -n mask_rcnn python=3.7
+
+2-
+conda activate mask_rcnn
+
+3-
+git clone https://github.com/akTwelve/Mask_RCNN.git aktwelve_mask_rcnn
+
+4-
+pip install -r requirements.txt
+
+5-
+python setup.py clean --all install
